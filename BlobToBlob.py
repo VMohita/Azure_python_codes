@@ -1,6 +1,5 @@
 import os, uuid, sys, os
 from azure.storage.blob import BlockBlobService, PublicAccess
-
 from azure.common.credentials import ServicePrincipalCredentials
 from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.datafactory import DataFactoryManagementClient
